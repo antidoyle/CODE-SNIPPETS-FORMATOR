@@ -33,7 +33,7 @@ class FORMATOR(QWidget):
 			except AttributeError:
 				BASE_PATH = os.path.abspath(".")
 			return os.path.join(BASE_PATH, REL_PATH)
-		self.setWindowIcon(QIcon(PATH("IC.ico")))
+		self.setWindowIcon(QIcon(PATH("ICON.ico")))
 		#┃														   ┃
 		#┣━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━━ ━┫
 		#┃														   ┃
